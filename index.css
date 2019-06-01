@@ -4,6 +4,7 @@
 
 body {
   height: 100%;
+  margin: 0;
   width: 100%;
 }
 
@@ -66,7 +67,9 @@ body {
 .faq__answer {
   color: turquoise;
   display: none;
+  margin-top: 4px;
 }
+
 .faq-toggle-switch:checked ~ .faq__answer {
   display: block;
 }
@@ -173,7 +176,7 @@ body {
 
 
 .stay-in-touch {
-  background-image: url('./assets/Stay in touch/Stay in touch.png');
+  background-image: url('./assets/Stay in touch/Stay In touch.png');
   background-size: cover;
   padding: 24px;
   text-align: center;
