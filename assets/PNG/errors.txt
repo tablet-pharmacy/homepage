@@ -1,0 +1,2 @@
+[5/11/2019, 12:38:04 PM] layer "+ What is Tablet? Tablet is a pharmacy of the digital age. We p": Expected Either a default asset specification or a layer asset specification but "+" found.
+[5/11/2019, 12:38:04 PM] layer "info@gotablet.co": Unsupported extension: co
