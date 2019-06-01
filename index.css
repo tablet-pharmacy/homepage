@@ -135,11 +135,11 @@ body {
   margin: auto;
   padding-top: 24px;
   max-width: 1000px;
+  overflow: scroll;
 }
 
 .how-it-works__content-text {
   margin-top: 16px;
-  min-width: 120px;
   width: 100%;
 }
 
@@ -226,7 +226,7 @@ body {
   height: 40px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 480px) {
   .faq__question, .faq__answer {
     font-size: 32px;
   }
@@ -234,6 +234,6 @@ body {
     height: 100px;
   }
   .nav-bar * {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
