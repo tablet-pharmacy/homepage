@@ -132,6 +132,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin: auto;
   margin-bottom: 32px;
   padding-top: 24px;
   max-width: 1000px;
