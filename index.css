@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "OpenSans", sans-serif;
 }
 
 body {
@@ -230,10 +231,6 @@ body {
   margin: 32px auto;
   max-width: 800px;
   width: 100%;
-}
-
-.process {
-
 }
 
 .process__arrow {
