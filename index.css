@@ -12,14 +12,6 @@ body {
   display: none;
 }
 
-.hero {
-  background-co: white;
-  display: flex;
-  height: 350px;
-  justify-content: space-around;
-  width: 100%;
-}
-
 .nav-bar {
   align-items: center;
   background-color: #ffffff;
@@ -104,8 +96,72 @@ body {
   cursor: pointer;
 }
 
+
+
+.form {
+  margin-top: 16px;
+  width: 200px;
+}
+
+.form__button {
+  background: #5AC5D1;
+  border-radius: 2px;
+  color: #ffffff;
+  height: 32px;
+  width: 50%;
+}
+
+.form__input {
+  border: 1px solid gray;
+  border-radius: 2px;
+  height: 32px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.form__input--name, .form__input--region {
+  width: 50%;
+}
+
+.form__input--name {
+  margin-right: 4px;
+}
+
+.form__input--region {
+  margin-left: 4px;
+}
+
+.form__input--email {
+  width: 100%;
+}
+
+.form__row--1 {
+  display: flex;
+  width: 100%;
+}
+
+.form__row--2 {
+  width: 100%;
+}
+
+
+
+.hero {
+  background-co: white;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero__container {
+  display: flex;
+  width: 100%;
+}
+
 .hero__phone {
-  height: 320px;
+  height: 380px;
   margin-top: 50px;
   width: auto;
 }
@@ -160,24 +216,24 @@ body {
 }
 
 .process {
+  background-color: #ffffff;
+  padding: 24px;
   color: orange;
   margin: auto;
   max-width: 1200px;
-  padding: 60px;
   text-align: center;
 }
 
 .process__text {
   color: #000000;
   font-size: 32px;
+  margin: 32px auto;
+  max-width: 800px;
   width: 100%;
 }
 
-
 .process {
-  background-color: #ffffff;
-  padding: 24px;
-  text-align: center;
+
 }
 
 .process__arrow {
