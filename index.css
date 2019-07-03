@@ -95,6 +95,7 @@ body {
 .faq__question {
   color: #000000;
   cursor: pointer;
+  font-weight: bold;
 }
 
 
