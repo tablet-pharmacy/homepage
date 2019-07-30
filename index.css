@@ -356,6 +356,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  max-width: 800px;
 }
 
 .stay-in-touch__content-image {
