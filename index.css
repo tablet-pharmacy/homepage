@@ -130,6 +130,7 @@ body {
 
 .form__button {
   background: #5AC5D1;
+  border: none;
   border-radius: 2px;
   color: #ffffff;
   height: 32px;
@@ -176,7 +177,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: auto;
-  max-width: 1200px;
+  max-width: 950px;
   width: 100%;
 }
 
