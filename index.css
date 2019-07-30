@@ -372,6 +372,17 @@ body {
   height: 100px;
 }
 
+.stay-in-touch__email {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 520px) {
+  .stay-in-touch__email {
+    display: block;
+  }
+}
+
 .stay-in-touch__header {
   max-width: 500px;
   padding: 40px 0;
